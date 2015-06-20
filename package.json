@@ -2,11 +2,10 @@
   "name": "wepray-appsite",
   "version": "1.0.0",
   "description": "wepray-towards success",
-  "main": "index.html",
   "scripts": {
-    "start": "http-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "http-server -a localhost -p 8000 -c-1"
   },
+  "main": "index.html",
   "repository": {
     "type": "git",
     "url": "https://github.com/wakqasahmed/appsite.git"
