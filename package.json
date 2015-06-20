@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "wepray-towards success",
   "scripts": {
-    "start": "http-server -a localhost -p 8000 -c-1"
+    "prestart": "npm install",
+    "start": "node server.js"
   },
-  "main": "index.html",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/wakqasahmed/appsite.git"
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/wakqasahmed/appsite/issues"
   },
-  "homepage": "https://github.com/wakqasahmed/appsite"
+  "homepage": "https://github.com/wakqasahmed/appsite",
+  "dependencies": {
+    "connect": "^3.4.0",
+    "serve-static": "^1.10.0"
+  }
 }
